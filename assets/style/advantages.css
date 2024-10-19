@@ -1,0 +1,44 @@
+.advantages {
+    background-color: #2D2D2D;
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.advantages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.advantages-container .item {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.advantages-container .title {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.advantages-container .text {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.64;
+}
+.advantages-container .image {
+    width: 460px;
+    height: 300px;
+    border-radius: 10.93px;
+}

@@ -1,0 +1,19 @@
+@import "/assets/style/header.css";
+@import "/assets/style/hero-section.css";
+@import "/assets/style/products.css";
+@import "/assets/style/catalog.css";
+@import "/assets/style/service.css";
+@import "/assets/style/repair.css";
+@import "/assets/style/spares.css";
+@import "/assets/style/advantages.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}

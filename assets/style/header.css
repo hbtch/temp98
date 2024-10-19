@@ -1,0 +1,102 @@
+@media screen and (min-width: 1440px) {
+    .header {
+        max-width: 1440px;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 56px;
+        align-items: center;
+        padding: 10px 20px;
+        z-index: 10; 
+        color: white; 
+    }
+    .header__logo {
+        width: 138px;
+        height: 48px;
+    }
+
+    .header__nav .nav__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .header__nav .nav__item {
+        margin: 0 15px; 
+    }
+    
+    .header__nav .nav__link {
+        color: rgb(255, 255, 255);
+        font-family: Manrope, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .header__contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .contacts__phone {
+        margin-right: 32px; 
+    }
+    
+    .button {
+        padding: 10px 20px; 
+        background-color: #ff9900;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .button--cta {
+        color: rgb(255, 255, 255);
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 1.5%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #ff0000; 
+    }
+    .header__arrow-button {
+        background-color: red;
+        border: none;
+        width: 40px;
+        height: 40px; 
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        cursor: pointer; 
+        margin-left: 10px; 
+        border-radius: 4px; 
+    }
+    
+    .header__arrow-icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* Стили для ширины до 2560px */
+@media screen and (max-width: 2560px) {
+    .header {
+        max-width: 2560px;
+    }
+}
+
+/* Стили для ширины до 1440px */
+@media screen and (max-width: 1440px) {
+
+}

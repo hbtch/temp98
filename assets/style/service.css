@@ -1,0 +1,153 @@
+.service {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.service-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.service-title {
+    color: rgb(19, 19, 19);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.service-link {
+    color: rgb(186, 4, 14);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.service-container .title {
+    position: relative;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.service-container .title.title-01 {
+    margin-top: 24px;
+}
+
+.service-container .title.title-02 {
+    margin-top: 3px;
+}
+
+.service-container .title.title-01::before  {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 70px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/left-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container .title.title-01::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/right-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container .title.title-02::before  {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 40px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/left-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container .title.title-02::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -10px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/right-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container .title.title-03::before  {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 125px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/left-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container .title.title-03::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 70px;
+    width: 60px;
+    height: 30px;
+    background-image: url('/assets/image/right-square-bracket.svg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.service-container .item {
+    width: 453px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgba(19, 19, 19, 0.16);;
+}
+
+.service-container .text {
+    color: rgba(19, 19, 19, 0.64);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0px;
+}

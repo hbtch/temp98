@@ -3,9 +3,427 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TEMP98</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__logo">
+            <img src="/assets/image/logoTemp.svg" alt="Темп98">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">О компании</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Спецтехника</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Запчасти</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Сервис</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Лизинг</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <a class="contacts__phone">+7 999 333 09 09</a>
+            <button class="button button--cta">Оставить заявку</button>
+            <button class="header__arrow-button">
+                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="header__arrow-icon">
+            </button>
+        </div>
+    </header>
+    <main class="main">
+            <section class="hero">
+                <img src="/assets/image/hero.png" alt="Truck in warehouse" class="hero__image">
+                <div class="hero__content">
+                    <h1 class="hero__title">ТЕМП98</h1>
+                    <p class="hero__subtitle">Ваш надежный партнер в мире спецтехники</p>
+                    <div class="hero__buttons">
+                        <button class="button button--primary">Оставить заявку</button>
+                        <button class="hero__arrow-button">
+                            <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="hero__arrow-icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__stats">
+                    <div class="stats__item" data-number="01">
+                        <span class="stats__number">25000+</span>
+                        <span class="stats__label">Успешных сделок</span>
+                    </div>
+                    <div class="stats__item" data-number="02">
+                        <span class="stats__number">20 лет</span>
+                        <span class="stats__label">На рынке</span>
+                    </div>
+                    <div class="stats__item" data-number="03">
+                        <span class="stats__number">98%</span>
+                        <span class="stats__label">Довольных клиентов</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products">
+                <div class="products__head">
+                    <h2 class="products__title">Вас может заинтересовать</h2>
+                    <button class="products__btn">Перейти в каталог спецтехники</button>
+                </div>
+                <div class="products__tabs">
+                    <button class="tabs__button">Спецтехника</button>
+                    <button class="tabs__button">Запчасти</button>
+                </div>
+                <div class="products__grid">
+                    <div class="product-card">
+                        <div class="product-card__image-wrap">
+                            <img src="/assets/image/shacman-red.png" alt="Тягач SHACMAN F3000" class="product-card__image">
+                        </div>                        
+                        <div class="product-card__info">
+                            <h3 class="product-card__name">Тягач SHACMAN F3000 4X2</h3>
+                            <span class="product-card__id">DZ19259525274</span>
+                            <div class="product-card__actions">
+                                <span class="product-card__price">7 500 000 ₽</span>
+                                <div class="product-card__button-wrap">
+                                    <span class="product-card__button-wrap-details">Подробнее</span>
+                                    <div class="product-card__arrow-icon">
+                                        <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="arrow-icon__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__image-wrap">
+                            <img src="/assets/image/shacman-blue.png" alt="Тягач SHACMAN F3000" class="product-card__image">
+                        </div>                        
+                        <div class="product-card__info">
+                            <h3 class="product-card__name">Тягач SHACMAN F3000 4X2</h3>
+                            <span class="product-card__id">DZ19259525274</span>
+                            <div class="product-card__actions">
+                                <span class="product-card__price">7 500 000 ₽</span>
+                                <div class="product-card__button-wrap">
+                                    <span class="product-card__button-wrap-details">Подробнее</span>
+                                    <div class="product-card__arrow-icon">
+                                        <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="arrow-icon__img">
+                                    </div>
+                                </div> 
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card__image-wrap">
+                            <img src="/assets/image/shacman-red.png" alt="Тягач SHACMAN F3000" class="product-card__image">
+                        </div>                        
+                        <div class="product-card__info">
+                            <h3 class="product-card__name">Тягач SHACMAN F3000 4X2</h3>
+                            <span class="product-card__id">DZ19259525274</span>
+                            <div class="product-card__actions">
+                                <span class="product-card__price">7 500 000 ₽</span>
+                                <div class="product-card__button-wrap">
+                                    <span class="product-card__button-wrap-details">Подробнее</span>
+                                    <div class="product-card__arrow-icon">
+                                        <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="arrow-icon__img">
+                                    </div>
+                                </div>                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="catalog">
+                <div class="catalog-head">
+                    <h2 class="catalog-title">Каталог спецтехники</h2>
+                    <a href="#" class="catalog-link">Перейти в каталог спецтехники</a>
+                </div>
+                <!-- Первая строка с тремя карточками -->
+                <div class="catalog-item row-1">
+                    <div class="catalog-item item-1">
+                        <p class="catalog-item title">Самосвалы</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/samosval.svg" alt="Самосвал">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                
+                    <div class="catalog-item item-2">
+                        <p class="catalog-item title">Тягачи</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/tyagachi.svg" alt="Тягач">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                
+                    <div class="catalog-item item-3">
+                        <p class="catalog-item title">Бетономесители</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/betonomesitel.svg" alt="Бетономеситель">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                </div>
+            
+                <!-- Вторая строка с четырьмя карточками -->
+                <div class="catalog-item row-2">
+                    <div class="catalog-item item-4">
+                        <p class="catalog-item title">Шасси</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/shassi.svg" alt="Шасси">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                
+                    <div class="catalog-item item-5">
+                        <p class="catalog-item title">Полуприцепы</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/polupricep.svg" alt="Полуприцеп">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                
+                    <div class="catalog-item item-6">
+                        <p class="catalog-item title">Автопоезда</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/avtopoezda.svg" alt="Автопоезд">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                
+                    <div class="catalog-item item-7">
+                        <p class="catalog-item title">Зерновозы</p>
+                        <div class="image-wrap">
+                            <img src="/assets/image/zernovoz.svg" alt="Зерновоз">
+                        </div>
+                        <div class="catalog-item__button-wrap">
+                            <a href="#" class="button button--details">Перейти</a>
+                            <button class="button button--icon">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="button__icon">
+                            </button>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <section class="service">
+                <div class="service-head">
+                    <h2 class="service-title">Сервисное обслуживание и ремонт техники</h2>
+                    <a href="#" class="service-link">Перейти в сервис</a>
+                </div>
+                <div class="service-container">
+                    <div class="service-container item">
+                        <h2 class="service-container title title-01">Оригинальные запчасти</h2>
+                        <p class="service-container text">Мы исползуем только оригинальные запчасти и <br> компоненты, что обеспечивает максимальную <br> надежность и долговечность вашей техники.</p>
+                    </div>
+
+                    <div class="service-container item">
+                        <h2 class="service-container title title-02">Профессиональные мастера</h2>
+                        <p class="service-container text">Наши специалисты обладают глубокими знаниями и опытом работы с техникой Shacman.</p>
+                    </div>
+
+                    <div class="service-container item">
+                        <h2 class="service-container title title-03">Гибкий график</h2>
+                        <p class="service-container text">Мы понимаем, что время -  это деньги, поэтому <br> предлагаем гибкий график работы и возможность <br> срочного ремонта.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="repair">
+                <div class="repair-container">
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Проведение ТО</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Ремонт ДВС</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Ремонт КПП</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Сборка/разборка спецтехники</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Подготовка спецтехники к сезону</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                    <div class="repair-container item">
+                        <h2 class="repair-container title">Ремонт редукторов и мостов</h2>
+                        <button>
+                            <a href="#" class="">Подробнее</a>
+                                <button class="">
+                                    <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                                </button>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+            <section class="spares">
+                <div class="spares-container">
+                    <img src="/assets/image/spares.png" alt="Запчасти" class="sparec-image">
+                    <h2 class="spares-container title">Запчасти для вашей техники</h2>
+                    <p clas="spares-container text">У нас в наличии широкий ассортимент высококачественных оригинальных <br> запчастей, гарантирующих долгосрочную и безопасную эксплуатацию <br> вашего оборудования. Наша цель - помочь вам поддерживать вашу технику в отличном состоянии,  обеспечивая бесперебойную работу.</p>
+                    <button>
+                        <a href="#" class="">Перейти в каталог запчастей</a>
+                            <button class="">
+                                <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="">
+                            </button>
+                    </button>
+                </div>
+            </section>
+            <section class="advantages">
+                <h2>Наши преимущества</h2>
+                <div class="advantages-container">
+                    <div class="advantages-container item">
+                        <img src="/assets/image/advantages-people1.png" alt="" class="advantages-container image">
+                        <div>
+                            <h2 class="advantages-container title">Высокий уровень профессионализма</h2>
+                            <p class="advantages-container text">Наша команда состоит из опытных специалистов, обладающих <br> глубокими знаниями и многолетним опытом работы в отрасли.</p>
+                        </div>
+                    </div>
+
+                    <div class="advantages-container item">
+                        <img src="/assets/image/advantages-car1.png" alt="" class="advantages-container image">
+                        <div>
+                            <h2 class="advantages-container title">Широкий ассортимент <br> техники и запчастей </h2>
+                        <p class="advantages-container text">Мы предлагаем обширный выбор спецтехники и запчастей от <br> ведущих мировых производителей</p>
+                        </div>
+                    </div>
+
+                    <div class="advantages-container item">
+                        <img src="/assets/image/advantages-people3.png" alt="" class="advantages-container image">
+                        <div>
+                            <h2 class="advantages-container title">Быстрая и качественная сервисная поддержка</h2>
+                            <p class="advantages-container text">Наша команда состоит из опытных специалистов, обладающих <br> глубокими знаниями и многолетним опытом работы в отрасли.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer__logo">
+            <img src="/assets/image/logoTemp.svg" alt="Темп98">
+        </div>
+        <div class="footer-container">
+            <div class="footer-container item">
+                <a class="footer__phone">+7 999 333 09 09</a>
+                    <button class="footer button--cta">Оставить заявку</button>
+                    <button class="footer__arrow-button">
+                        <img src="/assets/image/vectorBtn.svg" alt="Стрелка" class="header__arrow-icon">
+                    </button>
+            </div>
+
+            <div class="footer-container item">
+                <p>Спецтехника</p>
+                <ul>
+                    <li>Самосвалы</li>
+                    <li>Тягачи</li>
+                    <li>Бетоносмесители</li>
+                    <li>Шасси</li>
+                    <li>Полуприцепы</li>
+                    <li>Автопоезда</li>
+                    <li>Зерновозы</li>
+                </ul>
+            </div>
+
+            <div class="footer-container item">
+                <p>Запчасти</p>
+                <ul>
+                    <li>Двигатель</li>
+                    <li>Кабина и кузов</li>
+                    <li>Карданные Валы, фланцы</li>
+                    <li>Кпп, сцепление, трансмиссия</li>
+                    <li>Рулевой механизм</li>
+                    <li>Стекла, оптика, зеркала</li>
+                    <li>Топливная система</li>
+                    <li>Тормозная система</li>
+                    <li>Фильтры</li>
+                    <li>Электрика</li>
+                </ul>
+            </div>
+
+            <div class="footer-container item">
+                <p>Сервис</p>
+                <ul>
+                    <li>Проведение ТО</li>
+                    <li>Ремонт ДВС</li>
+                    <li>Ремонт КПП</li>
+                    <li>Сборка/Разборка спецтехники</li>
+                    <li>Подготовка спецтехники к сезону</li>
+                    <li>Ремонт редукторов и мостов</li>
+                </ul>
+            </div>
+
+            <div class="footer-container item">
+                <p>Главная</p>
+                <ul>
+                    <li>О компании</li>
+                    <li>Лизинг</li>
+                    <li>Лизинг</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>

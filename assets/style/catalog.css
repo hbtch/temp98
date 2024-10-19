@@ -1,0 +1,232 @@
+.catalog {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0px;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+.catalog-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.catalog-title {
+color: rgb(19, 19, 19);
+font-family: Wix Madefor Display;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.catalog-link {
+    color: rgb(186, 4, 14);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.catalog-item.row-1, .catalog-item.row-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+
+.catalog-item {
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.catalog-item.item-1, .catalog-item.item-3,  .catalog-item.item-4, .catalog-item.item-6 {
+    background-color: #262626;
+}
+
+.catalog-item.item-2, .catalog-item.item-5,  .catalog-item.item-7 {
+    background-color: #2D2D2D;
+}
+
+.catalog-item.item-1 {
+    width: 587px;
+    height: 420px;
+}
+.catalog-item.item-2, .catalog-item.item-3 {
+    width: 426.5px;
+    height: 420px;
+}
+
+.catalog-item.item-4, .catalog-item.item-5, .catalog-item.item-6, .catalog-item.item-7 {
+    width: 360px;
+    height: 420px;
+}
+
+.catalog-item .title {
+    color: rgb(255, 255, 255);
+    font-family: Wix Madefor Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.catalog-item.item-1 .image-wrap {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.catalog-item.item-1 .image-wrap img {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 498px;
+    height: 210px;
+}
+
+.catalog-item.item-2 .image-wrap {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.catalog-item.item-2 .image-wrap img {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 498px;
+    height: 210px;
+}
+
+.catalog-item.item-3 .image-wrap {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.catalog-item.item-3 .image-wrap img {
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 498px;
+    height: 210px;
+}
+
+.catalog-item.item-4 .image-wrap img {
+    margin-top: 70px;
+    margin-left: -176px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.catalog-item.item-5 .image-wrap {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.catalog-item.item-5 .image-wrap img {
+    margin-top: 105px;
+    margin-left: -240px;
+    height: 134px;
+    object-fit: cover;
+}
+
+.catalog-item.item-6 .image-wrap {
+    width: 100%; 
+    overflow: hidden;
+}
+
+.catalog-item.item-6 .image-wrap img {
+    height: 36px;
+    margin-top: 60px;
+    margin-left: -330px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.catalog-item.item-7 .image-wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+.catalog-item.item-7 .image-wrap img {
+    height: 36px;
+    margin-top: 90px;
+    margin-left: -100px;
+    height: 146px;
+    object-fit: cover;
+}
+
+.catalog-item:hover {
+    background-color: #770707; 
+}
+
+.catalog-item .catalog-item__button-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.catalog-item.item-1:hover .catalog-item__button-wrap,
+.catalog-item.item-2:hover .catalog-item__button-wrap,
+.catalog-item.item-3:hover .catalog-item__button-wrap,
+.catalog-item.item-4:hover .catalog-item__button-wrap,
+.catalog-item.item-5:hover .catalog-item__button-wrap,
+.catalog-item.item-6:hover .catalog-item__button-wrap,
+.catalog-item.item-7:hover .catalog-item__button-wrap {
+    opacity: 1;
+    visibility: visible;
+}
+
+.button--details {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.5%;
+    text-align: center;
+}
+
+.button--icon {
+    width: 40px;
+    height: 40px;
+    background-color: white; 
+    padding: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button__icon {
+    filter: invert(1);
+    width: 16px;
+    height: 16px;
+}
+
+.catalog-item.item-1 .button--details {
+    width: 511px;
+    height: 40px;
+}
+
+
