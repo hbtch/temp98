@@ -1,6 +1,6 @@
 .steps {
     max-width: 1440px;
-    margin: 120px 0px;
+    margin: 120px auto;
 }
 
 .steps__container {

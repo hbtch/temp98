@@ -1,5 +1,4 @@
-@media screen and (min-width: 1440px) {
-    .header {
+.header {
         max-width: 1440px;
         position: absolute; 
         top: 0;
@@ -12,6 +11,7 @@
         padding: 10px 20px;
         z-index: 10; 
         color: white; 
+        margin: 0 auto;
     }
     .header__logo {
         width: 138px;
@@ -87,7 +87,6 @@
         width: 16px;
         height: 16px;
     }
-}
 
 /* Стили для ширины до 2560px */
 @media screen and (max-width: 2560px) {

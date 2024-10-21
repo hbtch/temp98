@@ -2,6 +2,7 @@
     width: 1440px;
     height: 684px;
     background-color: rgb(31, 31, 31);
+    margin: 0 auto;
 }
 
 .footer__logo {

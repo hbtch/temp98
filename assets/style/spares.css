@@ -9,6 +9,7 @@
     align-items: center;
     background-image: url('/assets/image/spares.png');
     background-position: center;
+    margin: 0 auto;
 }
 
 .spares__container {
