@@ -1,0 +1,122 @@
+.leasing {
+    max-width: 1440px;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.leasing__container {
+    margin: 100px 24px;
+    width: 100%;
+    max-width: 1440px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leasing__content {
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leasing__title {
+    color: rgb(19, 19, 19);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.leasing__description {
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.64;
+}
+
+.leasing__cta {
+    width: 243px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+}
+
+.leasing__btn {
+    width: 199px;
+    height: 40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 6px;
+    border: none;
+    background: rgb(186, 4, 14);
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leasing__btn-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: rgb(186, 4, 14);
+    border: none;
+}
+
+.leasing__btn-icon img{
+    width: 13px;
+    height: 13px;
+}
+
+.leasing__info {
+    width: 662px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 57px 24px;
+}
+
+.leasing__item {
+    flex: 1 1 calc(50% - 12px);
+    box-sizing: border-box;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leasing__item-title {
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 0.72;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    padding: 0px 0px 12px 0px;
+}
+
+.leasing__item-value {
+    color: rgb(19, 19, 19);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.8;
+}
