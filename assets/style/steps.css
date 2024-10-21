@@ -1,0 +1,60 @@
+.steps {
+    max-width: 1440px;
+    margin: 120px 0px;
+}
+
+.steps__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;
+    width: 1392px;
+}
+
+.steps__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 336px;
+}
+
+.steps__item h3 {
+    color: rgb(186, 4, 14);
+    font-family: Wix Madefor Display;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -2%;
+    text-align: left;
+    padding: 0px 8px 0px 8px;
+}
+
+.steps__text {
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.64;
+}
+
+.steps-logo {
+    width: 1px;
+    height: 140px;
+    left: 0;
+}
+
+.steps__description {
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}

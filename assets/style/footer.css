@@ -1,0 +1,144 @@
+.footer {
+    width: 1440px;
+    height: 684px;
+    background-color: rgb(31, 31, 31);
+}
+
+.footer__logo {
+    width: 138px;
+    height: 48px;
+    padding: 48px 24px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 112px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 114px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__item--01 {
+    width: 235px;
+}
+
+.footer__item--02 {
+    width: 270px;
+}
+
+.footer__item--03 {
+    width: 270px;
+}
+
+.footer__phone {
+    color: rgb(255, 255, 255);
+    font-family: Wix Madefor Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer__arrow-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4;
+    padding: 0px;
+}
+
+.footer__button {
+    width: 199px;
+    height: 40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 6px;
+    background: rgb(186, 4, 14);
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 10px;
+}
+
+.footer__arrow-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: rgb(186, 4, 14);
+}
+
+.footer__arrow-icon {
+    width: 13px;
+    height: 13px;
+}
+
+.footer__title {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+}
+
+.footer__list-item {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    list-style: none;
+    opacity: 0.72;
+}
+
+.footer__nav {
+    width: 118px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+    margin-top: 114px;
+    margin-left: 64px;
+}
+
+.footer-politic-cookie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

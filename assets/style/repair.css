@@ -1,16 +1,24 @@
-.reapir {
-    max-width: 1440px;
+.repair {
+    max-width: 1392px;
     width: 100%;
-    margin-top: 120px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
 }
+
 .repair-container {
+    max-width: 1392px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    margin: 0; 
+    padding: 0;
 }
 
-.repair-container title {
+.repair-container__title {
+    width: 1061px;
     color: rgb(19, 19, 19);
     font-family: Manrope;
     font-size: 32px;
@@ -18,4 +26,76 @@
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.repair-container__item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(19, 19, 19, 0.16);
+}
+
+.repair-container__number {
+    width: 158px;
+    color: rgb(186, 4, 14);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.repair-container__button {
+    background-color: transparent;
+    border: none;
+    width: 158px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.repair-container__link {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.repair-container__icon-button{
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(186, 4, 14);
+}
+
+.repair-container__icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+    .repair-container__item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .repair-container__title {
+        margin-bottom: 10px;
+    }
 }

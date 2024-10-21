@@ -1,16 +1,38 @@
 .spares {
     max-width: 1440px;
+    height: 736px;
     width: 100%;
     margin-top: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    background-image: url('/assets/image/spares.png');
+    background-position: center;
 }
 
-.spares-container .title {
-    position: absolute;
+.spares__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.spares__content {
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spares__image {
+    width: 1440px;
+    height: 736px;
+}
+
+.spares__title {
     color: rgb(255, 255, 255);
     font-family: Wix Madefor Display;
     font-size: 80px;
@@ -19,11 +41,10 @@
     letter-spacing: -2%;
     text-align: center;
     top: 316px;
+    margin: 24px 0px;
 }
 
-.spares-container .text {
-    position: absolute;
-    top: 400px;
+.spares__text {
     color: rgb(255, 255, 255);
     font-family: Manrope;
     font-size: 24px;
@@ -31,4 +52,42 @@
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.spares__button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 4px;
+}
+
+.spares__link {
+    width: 309px;
+    height: 40px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 6px;
+    background-color: rgb(186, 4, 14);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.spares__arrow-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(186, 4, 14);
+}
+
+.spares__arrow-icon {
+    width: 13px;
+    height: 13px;
 }

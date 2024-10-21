@@ -1,0 +1,33 @@
+.partners {
+    width: 1440px;
+    height: 120px;
+    background: rgb(45, 45, 45);
+    padding: 32px 0px 32px 0px;
+}
+
+.partners__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners__alfa-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.partners__siemens-logo {
+    width: 105.95px;
+    height: 17.52px;
+}
+
+.partners__evroplan-logo {
+    width: 120.77px;
+    height: 17.57px;
+}
+
+.partners__sber-lizing-logo {
+    width: 185.59px;
+    height: 24px;
+}

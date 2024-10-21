@@ -6,6 +6,11 @@
 @import "/assets/style/repair.css";
 @import "/assets/style/spares.css";
 @import "/assets/style/advantages.css";
+@import "/assets/style/steps.css";
+@import "/assets/style/partners.css";
+@import "/assets/style/faq.css";
+@import "/assets/style/contact.css";
+@import "/assets/style/footer.css";
 
 * {
     box-sizing: border-box;

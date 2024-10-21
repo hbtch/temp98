@@ -1,43 +1,97 @@
 .advantages {
     background-color: #2D2D2D;
     max-width: 1440px;
+    height: 1221px;
     width: 100%;
     margin-top: 120px;
 }
 
-.advantages-container {
+.advantages__heading {
+    color: rgb(255, 255, 255);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 64px 24px 64px 24px;
+}
+
+.advantages__container {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.advantages-container .item {
+.advantages__item {
     display: flex;
     flex-direction: row;
-    gap: 0px;
+    justify-content: space-between;
+    gap: 132px;
+    margin-left: 24px;
+    margin-right: 24px;
+    transition: opacity 0.3s ease;
 }
 
-.advantages-container .title {
+.advantages__item:hover {
+    opacity: 1;
+}
+
+.advantages__item:hover ~ .advantages__item,
+.advantages__item:not(:hover) {
+    opacity: 0.5;
+}
+
+.advantages__description-block {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 16px 0px 0px 0px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.advantages__number {
     color: rgb(255, 255, 255);
     font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.advantages__description-right {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 12px;
+    margin: 0px 80px;
+}
+
+.advantages__title {
+    color: rgb(255, 255, 255);
+    font-family: Manrope, sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
-.advantages-container .text {
+.advantages__text {
     color: rgb(255, 255, 255);
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     opacity: 0.64;
 }
-.advantages-container .image {
+
+.advantages__image {
     width: 460px;
     height: 300px;
     border-radius: 10.93px;

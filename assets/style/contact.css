@@ -1,0 +1,128 @@
+.contact {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 120px
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__heading {
+    color: rgb(255, 255, 255);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+    margin-top: 64px;
+}
+
+.contact__text {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact__label {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 6px;
+}
+
+.contact__input {
+    background-color: rgb(38, 38, 38);
+    width: 688px;
+    height: 56px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    opacity: 0.4;
+    border-radius: 6px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.contact__submit {
+    width: 100%;
+    padding: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact__note {
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.64;
+}
+
+.contact__button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 688px;
+}
+
+.contact__icon-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: rgb(186, 4, 14);
+}
+
+.contact__icon {
+    width: 13px;
+    height: 13px;
+}
+
+.contact__button {
+    width: 644px;
+    height: 40px;
+    border-radius: 6px;
+    background: rgb(186, 4, 14);
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.5%;
+    text-align: center;
+    text-transform: uppercase;
+}

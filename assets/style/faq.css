@@ -1,0 +1,111 @@
+.faq {
+    max-width: 1392px;
+    height: 684px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 120px 0 120px 24px;
+}
+
+.faq__heading {
+    color: rgb(19, 19, 19);
+    font-family: Wix Madefor Display;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.faq__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.faq__container {
+    width: 816px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.faq__item {
+    width: 816px;
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.faq__number {
+    color: rgb(186, 4, 14);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 24px;
+}
+
+.faq__question {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+.faq__question h3 {
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.faq__toggle {
+    border-radius: 6px;
+    backdrop-filter: blur(16px);
+    background: rgb(236, 236, 236);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.faq__icon {
+    font-size: 32px; 
+    line-height: 32px; 
+    width: 32px;
+    height: 32px;
+}
+
+.faq__answer {
+    display: none;
+    color: rgb(19, 19, 19);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.faq__answer.active {
+    display: block; 
+}
+
+.faq__image img {
+    width: 512px;
+    height: 580px;
+}
