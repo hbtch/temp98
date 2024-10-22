@@ -16,6 +16,9 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 120px;
 }
 
 .catalog-title {
@@ -37,6 +40,7 @@ text-align: left;
     letter-spacing: 2%;
     text-align: right;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .catalog-item.row-1, .catalog-item.row-2 {

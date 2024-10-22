@@ -1,4 +1,6 @@
 .products__grid {
+    max-width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -25,6 +27,7 @@
     align-items: center;
     justify-content: space-between;
     margin-left: 28px;
+    margin: 0 auto;
 }
 .products__title {
 color: rgb(19, 19, 19);
