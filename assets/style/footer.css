@@ -1,4 +1,6 @@
 .footer {
+    max-width: 1440px;
+    width: 100%;
     background-color: rgb(31, 31, 31);
     margin: 0 auto;
 }
